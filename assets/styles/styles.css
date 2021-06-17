@@ -1,0 +1,161 @@
+/*Estilo de pagina index.html*/
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.bg{
+   
+    background-image: url("../img/fundo3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+
+
+.center {
+    color: rgb(12, 12, 12);
+    font-style: italic;
+    text-align: center; 
+    font-size: 25px; 
+    background-color: rgba(190, 190, 190, 0.739);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    color: rgba(23, 231, 231, 0.856);
+}
+.justify{
+    text-align: justify;
+}
+
+h2{
+        font-size: 40px;
+        font-style: italic;
+        color: rgb(253, 137, 43);
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(118, 24, 195);
+}
+
+#menu li{
+    display: inline;
+    padding: 12px;
+    font-style: oblique;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: rgb(241, 180, 37);
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: dimgrey;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+/*1ª Div*/
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*2ª Div*/
+.form{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+   
+}
+
+/*3ª Div*/
+.form2{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: left;
+}
+
+
+/*Estilo de pagina contato.html*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.bg2{
+   
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(251, 206, 4);
+}
+
+.btn{
+    font-size: 20px;
+}
+
+.msg {
+    color: rgb(243, 243, 243);
+    font-style: italic;
+    text-align: center; 
+    font-size: 20px; 
+    
+}
