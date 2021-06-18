@@ -11,7 +11,6 @@ body, html{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-   
 }
 
 
@@ -70,8 +69,14 @@ h2{
 
 .mb-100{
     margin-bottom: 100px;
+  
 }
-
+.mb-30{
+    margin-bottom: -30px;
+}
+.fundo{
+    background-color: rgba(148, 147, 140, 0.575);
+}
 /*1ª Div*/
 .container{
     display: flex;
@@ -79,6 +84,7 @@ h2{
     justify-content: center;
     align-items: center;
 }
+
 .img{
     display: flex;
     flex-flow: row;
